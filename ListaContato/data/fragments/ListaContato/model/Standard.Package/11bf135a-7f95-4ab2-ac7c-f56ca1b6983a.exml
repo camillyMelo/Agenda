@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="listacontato" version="4">
+  <OBJECT>
+    <ID name="listacontato" mc="Standard.Package" uid="11bf135a-7f95-4ab2-ac7c-f56ca1b6983a"/>
+    <PID name="ListaContato" mc="Standard.Project" uid="93032d45-d323-48ad-adc0-c95dfeacfb97"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[listacontato]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Model" mc="Standard.Package" uid="b331cf76-3f62-4364-afd1-9b079bc11f8c"/>
+        <COMPID name="View" mc="Standard.Package" uid="396ae949-7a8a-4259-8cfd-46bb4f2e389d"/>
+        <COMPID name="Dao" mc="Standard.Package" uid="ef30fb96-3592-4682-a132-39ac4cb05bca"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="listacontato Class diagram" mc="Standard.ClassDiagram" uid="4a730dbe-073a-491f-a39c-faf05e3f2c52"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

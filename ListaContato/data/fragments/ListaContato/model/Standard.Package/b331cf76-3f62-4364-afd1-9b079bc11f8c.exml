@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Model" version="4">
+  <OBJECT>
+    <ID name="Model" mc="Standard.Package" uid="b331cf76-3f62-4364-afd1-9b079bc11f8c"/>
+    <PID name="listacontato" mc="Standard.Package" uid="11bf135a-7f95-4ab2-ac7c-f56ca1b6983a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Contact" mc="Standard.Class" uid="a29c4510-2dcd-4600-8be7-cc4614ed56c6"/>
+        <COMPID name="User" mc="Standard.Class" uid="9796df05-182a-4684-8c23-267ee3a23405"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

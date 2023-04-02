@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Dao" version="4">
+  <OBJECT>
+    <ID name="Dao" mc="Standard.Package" uid="ef30fb96-3592-4682-a132-39ac4cb05bca"/>
+    <PID name="listacontato" mc="Standard.Package" uid="11bf135a-7f95-4ab2-ac7c-f56ca1b6983a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Dao]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ContactDaoImpl" mc="Standard.Class" uid="fcfd61db-69eb-4606-a562-7e1486fe6081"/>
+        <COMPID name="ContactDao" mc="Standard.Interface" uid="c546cbe6-35f9-47a0-af33-a3c7a229fca0"/>
+        <COMPID name="UserDaoImpl" mc="Standard.Class" uid="22694a3e-3fb1-4aa7-9410-f176fff351e8"/>
+        <COMPID name="UserDao" mc="Standard.Interface" uid="26e6038a-ebd4-4550-909a-b36f43e18e1e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

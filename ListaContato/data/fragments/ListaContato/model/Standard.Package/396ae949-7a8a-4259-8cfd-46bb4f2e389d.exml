@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="View" version="4">
+  <OBJECT>
+    <ID name="View" mc="Standard.Package" uid="396ae949-7a8a-4259-8cfd-46bb4f2e389d"/>
+    <PID name="listacontato" mc="Standard.Package" uid="11bf135a-7f95-4ab2-ac7c-f56ca1b6983a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[View]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MainActivity" mc="Standard.Class" uid="d2752f73-3f8a-43a8-b194-1e4512f7ccbe"/>
+        <COMPID name="NewUserActivity" mc="Standard.Class" uid="d67e273d-63e2-4347-b56a-a46c39665af9"/>
+        <COMPID name="ContactActivity" mc="Standard.Class" uid="0d9ea118-9cb7-40c5-b89d-ce12f027df34"/>
+        <COMPID name="NewContactsActivity" mc="Standard.Class" uid="10883baf-4260-4eca-8e45-33e9d81c3c08"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

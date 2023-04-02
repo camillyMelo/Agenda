@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ListaContato" version="4">
+  <OBJECT>
+    <ID name="ListaContato" mc="Standard.Project" uid="93032d45-d323-48ad-adc0-c95dfeacfb97"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[ListaContato]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="listacontato" mc="Standard.Package" uid="11bf135a-7f95-4ab2-ac7c-f56ca1b6983a"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="ListaContato" mc="Infrastructure.DiagramSet" uid="1daf7f08-cdcc-4d7f-850e-763e556b0893"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

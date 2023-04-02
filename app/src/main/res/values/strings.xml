@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Agenda - Camilly</string>
+    <string name="app_name_user">Novo Usuário</string>
+    <string name="app_name_contato">Contatos</string>
+    <string name="hint_input_user">Usuário</string>
+    <string name="hint_input_password">Senha</string>
+    <string name="hint_input_confPassword">Confirmar Senha</string>
+    <string name="hint_input_newuser">Username</string>
+    <string name="hint_input_salvar">Salvar</string>
+    <string name="button_login">Login</string>
+    <string name="button_new_user">Novo usuário</string>
+    <string name="hint_input_contato_apelido">Apelido</string>
+    <string name="hint_input_contato_nome">Nome do Contato</string>
+    <string name="hint_input_nome">Nome</string>
+    <string name="hint_input_contato_telefone">Telefone</string>
+    <string name="button_call">Call</string>
+    <string name="button_novo_contato">Novo Contato</string>
+
+</resources>
