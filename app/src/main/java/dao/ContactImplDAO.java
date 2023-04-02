@@ -32,6 +32,7 @@ public class ContactImplDAO implements ContactDAO {
                 }
             }
         return cont;
+
     }
 
     @Override

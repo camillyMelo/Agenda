@@ -16,7 +16,7 @@
             android:name=".view.NewContactActivity"
             android:exported="false" />
         <activity
-            android:name=".view.ActivityContact"
+            android:name=".view.ContactsActivity"
             android:exported="false" />
         <activity
             android:name=".view.NewUserActivity"
