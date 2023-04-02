@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:padding="8dp"
     android:background="@color/orange_light"
-    tools:context=".activity_new_user">
+    tools:context=".view.NewUserActivity">
 
     <EditText
         android:id="@+id/edittext_user"

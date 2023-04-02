@@ -10,7 +10,7 @@
     tools:context=".view.MainActivity">
 
     <EditText
-        android:id="@+id/edittext_user"
+        android:id="@+id/edittext_usuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/edittext_password"
+        android:id="@+id/edittext_senha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -31,7 +31,7 @@
         android:hint="@string/hint_input_password"
         android:inputType="textWebPassword"
         android:textColor="#000"
-        app:layout_constraintTop_toBottomOf="@+id/edittext_user" />
+        app:layout_constraintTop_toBottomOf="@+id/edittext_usuario" />
 
 
     <Button
@@ -44,10 +44,10 @@
         android:text="@string/button_login"
         android:backgroundTint="@color/orange_dark"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edittext_password" />
+        app:layout_constraintTop_toBottomOf="@id/edittext_senha" />
 
     <Button
-        android:id="@+id/btn_new_user"
+        android:id="@+id/btn_novo_usuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"

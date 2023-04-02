@@ -13,13 +13,13 @@
         android:theme="@style/Theme.ListaContato"
         tools:targetApi="31">
         <activity
-            android:name=".view.ActivityNewContact"
+            android:name=".view.NewContactActivity"
             android:exported="false" />
         <activity
             android:name=".view.ActivityContact"
             android:exported="false" />
         <activity
-            android:name=".view.ActivityNewUser"
+            android:name=".view.NewUserActivity"
             android:exported="false" />
         <activity
             android:name=".view.MainActivity"

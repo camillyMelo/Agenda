@@ -15,5 +15,12 @@
     <string name="hint_input_contato_telefone">Telefone</string>
     <string name="button_call">Call</string>
     <string name="button_novo_contato">Novo Contato</string>
-
+    <string name="preencher_todos_campos">Por gentileza, preencha todos os campos</string>
+    <string name="message_contato_criado">Contato criado com sucesso</string>
+    <string name="message_contato_existente">Contato já existe</string>
+    <string name="message_usuario_criado">Usuário criado com sucesso</string>
+    <string name="message_usuario_existente">Usuário já existe</string>
+    <string name="message_usuario_nao_cadastrado">Usuário informado não esta cadastrado no sistema</string>
+    <string name="message_senhas_diferentes">Por gentileza, confira se as senhas estão iguais</string>
+    <string name="ligando">Ligando...</string>
 </resources>
