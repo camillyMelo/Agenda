@@ -11,7 +11,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.listacontato.R;
-import com.example.listacontato.view.constants.Constantes;
 
 import dao.UserImplDAO;
 import model.Contact;
@@ -24,7 +23,6 @@ public class NewContactActivity extends AppCompatActivity implements View.OnClic
     private EditText phonenumberEditText;
     private User mUser ;
 
-    private String u;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +45,7 @@ public class NewContactActivity extends AppCompatActivity implements View.OnClic
     @Override
     public void onClick(View view) {
         if(view == buttonSalvar){
+
             getUser();
         }
     }
@@ -62,7 +61,7 @@ public class NewContactActivity extends AppCompatActivity implements View.OnClic
         Bundle bundle = getIntent().getExtras();
         String username = null;
         if (bundle != null) {
-            username = getIntent().getStringExtra(Constantes.USERNAME);
+            username = getIntent().getStringExtra("username");
         }
         mUser = UserImplDAO.getInstance().findByUsername(username);
         if (mUser != null) {

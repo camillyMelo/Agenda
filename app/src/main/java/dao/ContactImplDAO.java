@@ -19,19 +19,11 @@ public class ContactImplDAO implements ContactDAO {
 
     @Override
     public Contact findByApelido(String username) {
-            Contact cont = null;
-            if (database.isEmpty()){
-                return null;
-            }else{
-                for(Contact contacts : database) {
-                    if(contacts != null) {
-                        if (contacts.getApelido().equals(username)) {
-                            cont = contacts;
-                        }
-                    }
-                }
-            }
-        return cont;
+        return database.stream()
+                .filter(user1 -> user1.getApelido() == username)
+                .findAny()
+                .orElse(null);
+
     }
 
     @Override

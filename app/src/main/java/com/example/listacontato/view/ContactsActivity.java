@@ -113,10 +113,12 @@ public class ContactsActivity extends AppCompatActivity implements AdapterView.O
         if(bundle != null) {
             String usuario = getIntent().getStringExtra(Constantes.USERNAME);
             String senha = getIntent().getStringExtra(Constantes.PASSWORD);
-
             if (UserImplDAO.getInstance().validateUser(usuario, senha)) {
                 user = UserImplDAO.getInstance().findByUsername(usuario);
-            } else {
+
+                    Toast.makeText(this, R.string.message_welcome, Toast.LENGTH_LONG).show();
+
+                  } else {
                 Toast.makeText(this, R.string.message_usuario_nao_cadastrado, Toast.LENGTH_LONG).show();
                 finish();
             }
@@ -127,7 +129,8 @@ public class ContactsActivity extends AppCompatActivity implements AdapterView.O
         if(bundle != null) {
             String usuario = getIntent().getStringExtra(Constantes.USERNAME);
             String senha = getIntent().getStringExtra(Constantes.PASSWORD);
-        }
+
+       }
 
         Intent intent = new Intent(this, NewContactActivity.class);
         intent.putExtras(bundle);

@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:padding="8dp"
     android:background="@color/orange_light"
-    tools:context=".view.ActivityContact">
+    tools:context=".view.ContactsActivity">
 
     <TextView
         android:id="@+id/textview_message"
@@ -21,7 +21,7 @@
 
     <Spinner
         android:id="@+id/spinner_contacts"
-        android:layout_width="0dp"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_margin="25dp"
         android:layout_marginEnd="30dp"
@@ -37,7 +37,6 @@
         android:layout_margin="45dp"
         android:textAlignment="center"
         android:textSize="16sp"
-        android:text="@string/hint_input_contato_nome"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_contacts" />
 
@@ -47,7 +46,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
         android:textAlignment="center"
-        android:text="@string/hint_input_contato_telefone"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview_name" />
@@ -59,14 +57,14 @@
         android:layout_marginStart="45dp"
         android:layout_marginEnd="45dp"
         android:layout_marginTop="180dp"
-        android:text="@string/button_call"
+        android:text="@string/button_novo_contato"
         app:layout_constraintTop_toBottomOf="@+id/spinner_contacts" />
 
     <Button
         android:id="@+id/btn_call"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_novo_contato"
+        android:text="@string/button_call"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_create_new_contact"
         tools:layout_editor_absoluteX="53dp" />
