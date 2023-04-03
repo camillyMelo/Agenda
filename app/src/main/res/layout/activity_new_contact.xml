@@ -41,6 +41,7 @@
         android:layout_margin="8dp"
         android:layout_marginTop="24dp"
         android:layout_marginStart="8dp"
+        android:inputType="numberDecimal"
         app:layout_constraintTop_toBottomOf="@+id/edittext_nome" />
 
 
