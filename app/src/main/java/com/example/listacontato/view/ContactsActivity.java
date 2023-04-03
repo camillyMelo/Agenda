@@ -111,8 +111,8 @@ public class ContactsActivity extends AppCompatActivity implements AdapterView.O
     private void getUsers(){
         Bundle bundle = getIntent().getExtras();
         if(bundle != null) {
-            String usuario = getIntent().getStringExtra("username");
-            String senha = getIntent().getStringExtra("password");
+            String usuario = getIntent().getStringExtra(Constantes.USERNAME);
+            String senha = getIntent().getStringExtra(Constantes.PASSWORD);
 
             if (UserImplDAO.getInstance().validateUser(usuario, senha)) {
                 user = UserImplDAO.getInstance().findByUsername(usuario);
@@ -125,8 +125,8 @@ public class ContactsActivity extends AppCompatActivity implements AdapterView.O
     private void registerNewContact(User user) {
         Bundle bundle = getIntent().getExtras();
         if(bundle != null) {
-            String usuario = getIntent().getStringExtra("username");
-            String senha = getIntent().getStringExtra("password");
+            String usuario = getIntent().getStringExtra(Constantes.USERNAME);
+            String senha = getIntent().getStringExtra(Constantes.PASSWORD);
 
        }
 
