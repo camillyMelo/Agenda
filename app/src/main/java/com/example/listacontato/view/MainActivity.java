@@ -51,8 +51,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String senha = editTextSenha.getText().toString();
 
         Bundle bundle = new Bundle();
-        bundle.putString("username", usuario);
-        bundle.putString("password", senha);
+         bundle.putString(Constantes.USERNAME, usuario);
+        bundle.putString(Constantes.PASSWORD, senha);
 
         if(usuario.matches("") || senha.matches("")){
             Toast.makeText(this, R.string.preencher_todos_campos, Toast.LENGTH_LONG).show();
