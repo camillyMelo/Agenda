@@ -63,7 +63,7 @@ public class NewContactActivity extends AppCompatActivity implements View.OnClic
         Bundle bundle = getIntent().getExtras();
         String username = null;
         if (bundle != null) {
-            username = getIntent().getStringExtra("username");
+           username = getIntent().getStringExtra(Constantes.USERNAME);
         }
         mUser = UserImplDAO.getInstance().findByUsername(username);
         if (mUser != null) {
