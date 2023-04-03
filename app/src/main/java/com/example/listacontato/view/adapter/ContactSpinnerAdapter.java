@@ -16,27 +16,27 @@ public class ContactSpinnerAdapter extends ArrayAdapter<Contact> {
         super(context, resource, values);
     }
     
-     @NonNull
-    @Override
-    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        TextView textView = new TextView(getContext());
-        if(getItem(position) == null){
-            textView.setText("");
-        }else {
-            textView.setText(getItem(position).getApelido());
-        }
-        return textView;
-    }
+   //  @NonNull
+   // @Override
+  //  public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+    //    TextView textView = new TextView(getContext());
+      //  if(getItem(position) == null){
+        //    textView.setText("");
+      //  }else {
+      //      textView.setText(getItem(position).getApelido());
+      //  }
+     //   return textView;
+  //  }
 
-    @Override
-    public View getDropDownView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        TextView textView = new TextView(getContext());
-        if(getItem(position) == null){
-            textView.setText("");
-        }else {
-            textView.setText(String.format("Apelido: %s/nNome: %s", getItem(position).getApelido(), getItem(position).getName()));
-        }
-        textView.setPadding(8, 8, 8, 8);
-        return textView;
-    }
+  //  @Override
+   // public View getDropDownView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+     //   TextView textView = new TextView(getContext());
+      //  if(getItem(position) == null){
+      //      textView.setText("");
+      //  }else {
+       //     textView.setText(String.format("Apelido: %s/nNome: %s", getItem(position).getApelido(), getItem(position).getName()));
+      //  }
+      //  textView.setPadding(8, 8, 8, 8);
+      //  return textView;
+   // }
 }
